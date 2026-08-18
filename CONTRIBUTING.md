@@ -2,8 +2,10 @@
 
 ## Setup
 
+For the full step-by-step guide, see [docs/DEVELOPMENT.md](../docs/DEVELOPMENT.md).
 1. Install Rust, `wasm32v1-none` target, and the Stellar CLI.
 2. `git clone` this repo, then `cd paystream`.
+
 
 **Windows note:** `Cargo.toml`'s `crate-type` must be `["rlib"]` for `cargo test` and `["cdylib", "rlib"]` for `stellar contract build`, due to a MinGW linker limit. Swap it depending on which command you're running.
 
