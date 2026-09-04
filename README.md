@@ -1,5 +1,8 @@
 ﻿# Paystream
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Soroban SDK: 27.0.3](https://img.shields.io/badge/Soroban%20SDK-27.0.3-blueviolet)
+
 Non-custodial recurring subscription billing for the Stellar network, built on Soroban.
 
 Paystream lets a merchant define a subscription plan and a subscriber opt in with a revocable, time-bound token allowance. Anyone (a "keeper") can then trigger a due charge — no centralized server, no custodial holding of funds.
@@ -74,6 +77,13 @@ stellar contract build  # crate-type = ["cdylib", "rlib"]
 - Permissionless, incentivized keeper mechanism
 - Subscription upgrade/downgrade with proration
 - Oracle-based dispute/failure resolution path
+
+## Contributing
+
+Contributions are welcome. Paystream has a roadmap of ~40 tracked issues covering new contract features, testing, CI, and documentation — a good range of entry points for all experience levels.
+
+- See [CONTRIBUTING.md](./CONTRIBUTING.md) for setup, branch naming, and commit conventions.
+- Browse [good first issues](https://github.com/Demilade10/PayStream/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) to find something to pick up.
 
 ## License
 
