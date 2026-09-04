@@ -36,7 +36,7 @@ These are intentional v1 scope cuts, not oversights — see Roadmap below.
 - Native XLM token (SAC): `CDLZFC3SYJYDZT7K67VZ75HPJVIEUVNIXF47ZG2FB2RMQQVU2HHGCYSC`
 
 ## Build & test
-
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for the full local setup guide.
 Requires Rust, the `wasm32v1-none` target, and the Stellar CLI.
 
 **Windows note:** `cargo test` and `stellar contract build` require different `crate-type` values in `Cargo.toml` due to a MinGW linker symbol-count limit with `testutils`. Before testing:
